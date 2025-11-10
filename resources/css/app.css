@@ -9,3 +9,11 @@
     --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
         'Segoe UI Symbol', 'Noto Color Emoji';
 }
+body {
+    font: 18px/1.6 'Roboto', sans-serif;
+    padding-top: 5rem;
+}
+.template {
+    padding: 3rem 1.5rem;
+    text-align: center;
+}

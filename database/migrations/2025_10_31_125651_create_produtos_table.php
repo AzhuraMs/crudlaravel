@@ -11,13 +11,13 @@ return new class extends Migration
      */
     public function up(): void
     {
-            Schema::create('produtos', function (Blueprint $table) {
+        Schema::create('produtos', function (Blueprint $table) {
             $table->id();
             $table->string('descricao', 100);
             $table->integer('qtd');
             $table->decimal('precoUnitario', 8, 2);
             $table->decimal('precoVenda', 8, 2);
-            $table->timestamps();
+            $table->timestamps(); // Adicionado para created_at e updated_at
         });
     }
 
